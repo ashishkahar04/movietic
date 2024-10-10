@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Catamaran&family=Poppins:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2d2e37;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.movie-container{
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#movie{
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.container{
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
+
+.seat{
+    background-color: #ffb43a;
+    height: 26px;
+    width: 32px;
+    margin: 3px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.seat.selected{
+    background-color: rgb(40, 240, 26);
+}
+
+.seat.sold{
+    background-color: white;
+}
+
+.seat:nth-of-type(2){
+    margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2){
+    margin-left: 18px;
+}
+
+.seat:not(.sold):hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.showcase .seat:not(.sold):hover{
+    cursor: default;
+    transform: scale(1);
+}
+
+.showcase{
+    background: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+
+.showcase li small{
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.screen{
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-5deg);
+    box-shadow: 0 3px 10px rgb(228, 28, 228);
+}
+
+p.text{
+    margin: 5px 0;
+    color: #fff;
+}
+
+p.text span{
+    color: rgb(11, 255, 7);
+}
+
+/* next page*/
+.next-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.next-btn{
+    background: #ffb43a;
+    padding: 12px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.next-btn:hover{
+    background: hel(37,94%,57%);
+    transition: 0.3s all linear;
+}
+
+
+
+
