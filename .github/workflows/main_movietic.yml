@@ -63,4 +63,4 @@ jobs:
           app-name: 'movietic'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A984A5B6C82B4BDDA27E3D5616D7239A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84D423AC1EED48B0846B4D8689F8B70C }}
