@@ -315,6 +315,7 @@
 
         </div>
     </section>
+    <iframe src='https://webchat.botframework.com/embed/movieticLang-bot?s=FELUIzOC7nY.unoUQRTPm5ksj0oJ5oRZf-lcWfO3XTBGU9r2SqLLCLU'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
     <!-- Movies Section End-->
     <!-- Next Page -->
     <div class="next-page">
